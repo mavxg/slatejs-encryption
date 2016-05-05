@@ -1,0 +1,33 @@
+{
+  "name": "slatejs-encryption",
+  "version": "1.0.0",
+  "description": "Encryption plugin for SlateJS editor",
+  "main": "encryption.js",
+  "dependencies": {
+    "friar": "git://github.com/mavxg/friar",
+    "openpgp": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "peerDependencies": {
+    "slatejs": "git://github.com/mavxg/slatejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavxg/slatejs-encryption.git"
+  },
+  "keywords": [
+    "Encryption",
+    "PGP",
+    "GPG",
+    "SlateJS"
+  ],
+  "author": "Benjamin Thomas Norrington",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mavxg/slatejs-encryption/issues"
+  },
+  "homepage": "https://github.com/mavxg/slatejs-encryption#readme"
+}
